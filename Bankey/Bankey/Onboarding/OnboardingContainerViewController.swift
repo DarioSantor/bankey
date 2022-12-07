@@ -1,5 +1,5 @@
 //
-//  OnboardingContainerViewContainer.swift
+//  OnboardingContainerViewController.swift
 //  Bankey
 //
 //  Created by Santos, Dario Ferreira on 06/12/2022.
@@ -121,6 +121,6 @@ extension OnboardingContainerViewController: UIPageViewControllerDataSource {
 // MARK: Actions
 extension OnboardingContainerViewController {
     @objc func closeTapped(_ sender: UIButton) {
-        // TODO
+        self.delegate?.didFinishOnboarding()
     }
 }
