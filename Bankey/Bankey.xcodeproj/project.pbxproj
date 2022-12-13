@@ -15,6 +15,8 @@
 		F222F98029425B29003A1E2C /* NSNotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222F97F29425B29003A1E2C /* NSNotificationName.swift */; };
 		F222F98229425E1E003A1E2C /* UITextField+SecureToggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F222F98129425E1E003A1E2C /* UITextField+SecureToggle.swift */; };
 		F27C13D329488C48009D2DCB /* ShakeyBellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27C13D229488C48009D2DCB /* ShakeyBellView.swift */; };
+		F27C13D52948BFB0009D2DCB /* Date+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27C13D42948BFB0009D2DCB /* Date+Utils.swift */; };
+		F27C13D72948C0C0009D2DCB /* AccountSummaryViewController+Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27C13D62948C0C0009D2DCB /* AccountSummaryViewController+Networking.swift */; };
 		F29761F4293F9ECD00C5F886 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29761F3293F9ECD00C5F886 /* AppDelegate.swift */; };
 		F29761F8293F9ECD00C5F886 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29761F7293F9ECD00C5F886 /* LoginViewController.swift */; };
 		F29761FD293F9ECE00C5F886 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F29761FC293F9ECE00C5F886 /* Assets.xcassets */; };
@@ -50,6 +52,8 @@
 		F222F97F29425B29003A1E2C /* NSNotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSNotificationName.swift; sourceTree = "<group>"; };
 		F222F98129425E1E003A1E2C /* UITextField+SecureToggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+SecureToggle.swift"; sourceTree = "<group>"; };
 		F27C13D229488C48009D2DCB /* ShakeyBellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShakeyBellView.swift; sourceTree = "<group>"; };
+		F27C13D42948BFB0009D2DCB /* Date+Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Utils.swift"; sourceTree = "<group>"; };
+		F27C13D62948C0C0009D2DCB /* AccountSummaryViewController+Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AccountSummaryViewController+Networking.swift"; sourceTree = "<group>"; };
 		F29761F0293F9ECD00C5F886 /* Bankey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bankey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29761F3293F9ECD00C5F886 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F29761F7293F9ECD00C5F886 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
@@ -180,6 +184,7 @@
 				F2976211293FA5CC00C5F886 /* LocalState.swift */,
 				F222F96E2940BAF1003A1E2C /* CurrencyFormatter.swift */,
 				F222F97F29425B29003A1E2C /* NSNotificationName.swift */,
+				F27C13D42948BFB0009D2DCB /* Date+Utils.swift */,
 			);
 			path = Util;
 			sourceTree = "<group>";
@@ -188,6 +193,7 @@
 			isa = PBXGroup;
 			children = (
 				F297621A293FB5D300C5F886 /* AccountSummaryViewController.swift */,
+				F27C13D62948C0C0009D2DCB /* AccountSummaryViewController+Networking.swift */,
 				F29762202940947C00C5F886 /* Header */,
 				F222F9672940952F003A1E2C /* Cells */,
 			);
@@ -314,6 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2976216293FA95B00C5F886 /* UIViewController+Utils.swift in Sources */,
+				F27C13D52948BFB0009D2DCB /* Date+Utils.swift in Sources */,
 				F2976214293FA60300C5F886 /* DummyViewController.swift in Sources */,
 				F297620A293FA10B00C5F886 /* LoginView.swift in Sources */,
 				F222F96D2940BA75003A1E2C /* Decimal+Utils.swift in Sources */,
@@ -330,6 +337,7 @@
 				F297621B293FB5D300C5F886 /* AccountSummaryViewController.swift in Sources */,
 				F29761F8293F9ECD00C5F886 /* LoginViewController.swift in Sources */,
 				F29761F4293F9ECD00C5F886 /* AppDelegate.swift in Sources */,
+				F27C13D72948C0C0009D2DCB /* AccountSummaryViewController+Networking.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
